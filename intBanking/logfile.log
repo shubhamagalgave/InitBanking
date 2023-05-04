@@ -1,0 +1,359 @@
+2023-05-01 20:02:48,523 INFO  [ebanking] login successfully 
+/2023-05-01 20:02:51,227 INFO  [ebanking] clicked on logout link 
+/2023-05-01 20:02:56,261 INFO  [ebanking] logout successfully passed 
+
+/2023-05-02 12:37:51,014 INFO  [ebanking] URL is opened 
+/2023-05-02 12:37:51,259 INFO  [ebanking] username is entered 
+/2023-05-02 12:37:54,413 INFO  [ebanking] password is entered 
+/2023-05-02 12:38:02,748 INFO  [ebanking] Login Test is passed 
+/2023-05-02 12:38:19,857 INFO  [ebanking] clicked on new customer 
+/2023-05-02 12:38:55,332 INFO  [ebanking] clicked on login button 
+/2023-05-02 12:38:58,706 INFO  [ebanking] clicked on edit cust button 
+/2023-05-02 12:39:03,826 INFO  [ebanking] double clicked on page 
+/2023-05-02 12:39:06,916 INFO  [ebanking] customer Id is entered 
+/2023-05-02 12:39:14,193 INFO  [ebanking] clicked on submit button 
+/2023-05-02 12:39:14,319 INFO  [ebanking] Test case is successfully Passed 
+/2023-05-02 12:39:35,853 INFO  [ebanking] successfully clicked on delete button 
+/2023-05-02 12:39:40,917 INFO  [ebanking] double clicked on  page 
+/2023-05-02 12:39:46,073 INFO  [ebanking] customer id is entered 
+/2023-05-02 12:39:48,224 INFO  [ebanking] successfully clicked on submit button 
+/2023-05-02 12:39:53,241 INFO  [ebanking] Test Case is passed 
+/2023-05-02 12:40:10,444 INFO  [ebanking] clicked on New Account 
+/2023-05-02 12:40:15,479 INFO  [ebanking] double clicked on New Account page 
+/2023-05-02 12:40:20,689 INFO  [ebanking] customer id is entered 
+/2023-05-02 12:40:23,183 INFO  [ebanking] Account type is selected 
+/2023-05-02 12:40:28,436 INFO  [ebanking] initial deposit id is entered 
+/2023-05-02 12:40:35,489 INFO  [ebanking] clicked on submit 
+/2023-05-02 12:40:40,513 INFO  [ebanking] Test case is passed 
+/2023-05-02 12:41:09,065 INFO  [ebanking] User Successfully loggedin 
+/2023-05-02 12:41:12,186 INFO  [ebanking] clicked on edit Account link 
+/2023-05-02 12:41:15,234 INFO  [ebanking] double clicked on page 
+/2023-05-02 12:41:19,236 INFO  [ebanking] Account number is entered 
+/2023-05-02 12:41:19,811 INFO  [ebanking] clicked on  submit button 
+/2023-05-02 12:41:23,827 INFO  [ebanking] Test case is passed 
+/2023-05-02 12:41:56,273 INFO  [ebanking] Logein Successfully 
+/2023-05-02 12:42:01,561 INFO  [ebanking] clicked on delete account Successfully 
+/2023-05-02 12:42:06,988 INFO  [ebanking] Account number inserted successfully 
+/2023-05-02 12:42:08,559 INFO  [ebanking] clicked on submit button Successfully 
+/2023-05-02 12:42:13,575 INFO  [ebanking] Test Case Successfully passed 
+/2023-05-02 12:42:31,395 INFO  [ebanking] Login Successfully 
+/2023-05-02 12:42:36,503 INFO  [ebanking] clicked on Customised StatementLink 
+/2023-05-02 12:42:41,554 INFO  [ebanking] double clicked on page  
+/2023-05-02 12:42:45,239 INFO  [ebanking] Account number is inserted  
+/2023-05-02 12:42:46,419 INFO  [ebanking] from date is entered  
+/2023-05-02 12:42:47,650 INFO  [ebanking] to date is entered  
+/2023-05-02 12:42:48,780 INFO  [ebanking] Lower Amount is entered 
+/2023-05-02 12:42:49,901 INFO  [ebanking] no Of transaction is entered 
+/2023-05-02 12:42:52,554 INFO  [ebanking] clicked on submit button 
+/2023-05-02 12:42:56,071 INFO  [ebanking] Test Case is passed 
+/2023-05-02 12:43:33,012 INFO  [ebanking] login successfully 
+/2023-05-02 12:43:33,986 INFO  [ebanking] clicked on logout link 
+/2023-05-02 12:43:38,997 INFO  [ebanking] logout successfully passed 
+/2023-05-02 12:52:48,784 INFO  [ebanking] clicked on new customer 
+/2023-05-02 12:52:58,999 INFO  [ebanking] customer is entered 
+/2023-05-02 12:52:59,092 INFO  [ebanking] customer gender is selected 
+/2023-05-02 12:53:02,262 INFO  [ebanking] customer date of birth is entered 
+/2023-05-02 12:53:05,445 INFO  [ebanking] customer address is entered 
+/2023-05-02 12:53:05,579 INFO  [ebanking] customer city is entered 
+/2023-05-02 12:53:05,715 INFO  [ebanking] customer state is entered 
+/2023-05-02 12:53:05,847 INFO  [ebanking] customer pincode is entered 
+/2023-05-02 12:53:05,967 INFO  [ebanking] customer phone number is entered 
+/2023-05-02 12:53:06,080 INFO  [ebanking] customer email address is entered 
+/2023-05-02 12:53:09,652 INFO  [ebanking] clicked on submit button 
+/2023-05-02 12:53:12,672 INFO  [ebanking] Test Case is passed 
+/2023-05-02 13:10:41,841 INFO  [ebanking] URL is opened 
+/2023-05-02 13:10:42,010 INFO  [ebanking] username is entered 
+/2023-05-02 13:10:55,206 INFO  [ebanking] clicked on new customer 
+/2023-05-02 13:11:41,572 INFO  [ebanking] clicked on login button 
+/2023-05-02 13:13:02,309 INFO  [ebanking] login successfully 
+/2023-05-02 13:14:40,008 INFO  [ebanking] URL is opened 
+/2023-05-02 13:14:40,259 INFO  [ebanking] username is entered 
+/2023-05-02 13:14:43,418 INFO  [ebanking] password is entered 
+/2023-05-02 13:14:54,610 INFO  [ebanking] Login Test is passed 
+/2023-05-02 13:15:33,898 INFO  [ebanking] clicked on login button 
+/2023-05-02 13:15:37,215 INFO  [ebanking] clicked on edit cust button 
+/2023-05-02 13:15:42,271 INFO  [ebanking] double clicked on page 
+/2023-05-02 13:15:45,436 INFO  [ebanking] customer Id is entered 
+/2023-05-02 13:15:52,706 INFO  [ebanking] clicked on submit button 
+/2023-05-02 13:15:52,819 INFO  [ebanking] Test case is successfully Passed 
+/2023-05-02 13:16:14,746 INFO  [ebanking] successfully clicked on delete button 
+/2023-05-02 13:16:19,799 INFO  [ebanking] double clicked on  page 
+/2023-05-02 13:16:49,693 INFO  [ebanking] URL is opened 
+/2023-05-02 13:16:49,977 INFO  [ebanking] username is entered 
+/2023-05-02 13:16:53,155 INFO  [ebanking] password is entered 
+/2023-05-02 13:17:00,726 INFO  [ebanking] Login Test is passed 
+/2023-05-02 13:17:15,176 INFO  [ebanking] clicked on new customer 
+/2023-05-02 13:17:25,440 INFO  [ebanking] customer is entered 
+/2023-05-02 13:17:25,512 INFO  [ebanking] customer gender is selected 
+/2023-05-02 13:17:28,683 INFO  [ebanking] customer date of birth is entered 
+/2023-05-02 13:17:31,827 INFO  [ebanking] customer address is entered 
+/2023-05-02 13:17:31,925 INFO  [ebanking] customer city is entered 
+/2023-05-02 13:17:32,017 INFO  [ebanking] customer state is entered 
+/2023-05-02 13:17:32,106 INFO  [ebanking] customer pincode is entered 
+/2023-05-02 13:17:32,233 INFO  [ebanking] customer phone number is entered 
+/2023-05-02 13:17:32,358 INFO  [ebanking] customer email address is entered 
+/2023-05-02 13:17:36,037 INFO  [ebanking] clicked on submit button 
+/2023-05-02 13:17:39,059 INFO  [ebanking] Test Case is passed 
+/2023-05-02 13:17:54,502 INFO  [ebanking] clicked on login button 
+/2023-05-02 13:17:57,611 INFO  [ebanking] clicked on edit cust button 
+/2023-05-02 13:18:02,678 INFO  [ebanking] double clicked on page 
+/2023-05-02 13:18:27,194 INFO  [ebanking] customer Id is entered 
+/2023-05-02 13:18:35,035 INFO  [ebanking] clicked on submit button 
+/2023-05-02 13:18:35,066 INFO  [ebanking] Test case is successfully Passed 
+/2023-05-02 13:19:17,079 INFO  [ebanking] successfully clicked on delete button 
+/2023-05-02 13:19:22,143 INFO  [ebanking] double clicked on  page 
+/2023-05-02 13:19:27,317 INFO  [ebanking] customer id is entered 
+/2023-05-02 13:19:29,458 INFO  [ebanking] successfully clicked on submit button 
+/2023-05-02 13:19:34,477 INFO  [ebanking] Test Case is passed 
+/2023-05-02 13:20:17,966 INFO  [ebanking] clicked on New Account 
+/2023-05-02 13:20:23,118 INFO  [ebanking] double clicked on New Account page 
+/2023-05-02 13:20:28,307 INFO  [ebanking] customer id is entered 
+/2023-05-02 13:20:30,757 INFO  [ebanking] Account type is selected 
+/2023-05-02 13:20:35,916 INFO  [ebanking] initial deposit id is entered 
+/2023-05-02 13:20:41,621 INFO  [ebanking] clicked on submit 
+/2023-05-02 13:20:46,653 INFO  [ebanking] Test case is passed 
+/2023-05-02 13:21:18,801 INFO  [ebanking] User Successfully loggedin 
+/2023-05-02 13:21:21,909 INFO  [ebanking] clicked on edit Account link 
+/2023-05-02 13:21:24,949 INFO  [ebanking] double clicked on page 
+/2023-05-02 13:21:28,853 INFO  [ebanking] Account number is entered 
+/2023-05-02 13:21:30,230 INFO  [ebanking] clicked on  submit button 
+/2023-05-02 13:21:34,246 INFO  [ebanking] Test case is passed 
+/2023-05-02 13:22:08,928 INFO  [ebanking] Logein Successfully 
+/2023-05-02 13:22:14,192 INFO  [ebanking] clicked on delete account Successfully 
+/2023-05-02 13:22:19,494 INFO  [ebanking] Account number inserted successfully 
+/2023-05-02 13:22:21,119 INFO  [ebanking] clicked on submit button Successfully 
+/2023-05-02 13:22:26,140 INFO  [ebanking] Test Case Successfully passed 
+/2023-05-02 13:22:59,627 INFO  [ebanking] Login Successfully 
+/2023-05-02 13:23:04,915 INFO  [ebanking] clicked on Customised StatementLink 
+/2023-05-02 13:23:09,971 INFO  [ebanking] double clicked on page  
+/2023-05-02 13:23:34,474 INFO  [ebanking] Account number is inserted  
+/2023-05-02 13:23:35,674 INFO  [ebanking] from date is entered  
+/2023-05-02 13:23:36,839 INFO  [ebanking] to date is entered  
+/2023-05-02 13:23:38,024 INFO  [ebanking] Lower Amount is entered 
+/2023-05-02 13:23:39,163 INFO  [ebanking] no Of transaction is entered 
+/2023-05-02 13:26:24,564 INFO  [ebanking] clicked on submit button 
+/2023-05-02 13:26:28,095 INFO  [ebanking] Test Case is passed 
+/2023-05-02 13:26:43,131 INFO  [ebanking] login successfully 
+/2023-05-02 13:26:45,379 INFO  [ebanking] clicked on logout link 
+/2023-05-02 13:26:50,475 INFO  [ebanking] logout successfully passed 
+/2023-05-02 13:28:02,186 INFO  [ebanking] URL is opened 
+/2023-05-02 13:28:04,186 INFO  [ebanking] username is entered 
+/2023-05-02 13:29:38,755 INFO  [ebanking] User Successfully loggedin 
+/2023-05-02 13:30:42,676 INFO  [ebanking] Logein Successfully 
+/2023-05-02 13:35:12,432 INFO  [ebanking] URL is opened 
+/2023-05-02 13:35:13,072 INFO  [ebanking] username is entered 
+/2023-05-02 13:35:27,343 INFO  [ebanking] clicked on new customer 
+/2023-05-02 13:35:45,785 INFO  [ebanking] clicked on login button 
+/2023-05-02 13:36:45,767 INFO  [ebanking] User Successfully loggedin 
+/2023-05-02 13:38:04,602 INFO  [ebanking] login successfully 
+/2023-05-02 13:51:54,707 INFO  [ebanking] clicked on login button 
+/2023-05-02 14:11:14,545 INFO  [ebanking] URL is opened 
+/2023-05-02 14:11:14,679 INFO  [ebanking] username is entered 
+/2023-05-02 14:11:17,982 INFO  [ebanking] password is entered 
+/2023-05-02 14:11:28,025 INFO  [ebanking] Login Test is passed 
+/2023-05-02 14:12:09,102 INFO  [ebanking] clicked on new customer 
+/2023-05-02 14:12:19,348 INFO  [ebanking] customer is entered 
+/2023-05-02 14:12:19,431 INFO  [ebanking] customer gender is selected 
+/2023-05-02 14:12:22,644 INFO  [ebanking] customer date of birth is entered 
+/2023-05-02 14:12:25,872 INFO  [ebanking] customer address is entered 
+/2023-05-02 14:12:26,015 INFO  [ebanking] customer city is entered 
+/2023-05-02 14:12:26,160 INFO  [ebanking] customer state is entered 
+/2023-05-02 14:12:26,309 INFO  [ebanking] customer pincode is entered 
+/2023-05-02 14:12:26,460 INFO  [ebanking] customer phone number is entered 
+/2023-05-02 14:12:26,619 INFO  [ebanking] customer email address is entered 
+/2023-05-02 14:12:31,202 INFO  [ebanking] clicked on submit button 
+/2023-05-02 14:12:34,228 INFO  [ebanking] Test Case is passed 
+/2023-05-02 14:13:12,852 INFO  [ebanking] clicked on login button 
+/2023-05-02 14:13:16,068 INFO  [ebanking] clicked on edit cust button 
+/2023-05-02 14:13:21,128 INFO  [ebanking] double clicked on page 
+/2023-05-02 14:13:26,111 INFO  [ebanking] customer Id is entered 
+/2023-05-02 14:13:33,267 INFO  [ebanking] clicked on submit button 
+/2023-05-02 14:13:33,299 INFO  [ebanking] Test case is successfully Passed 
+/2023-05-02 14:14:38,171 INFO  [ebanking] successfully clicked on delete button 
+/2023-05-02 14:14:43,235 INFO  [ebanking] double clicked on  page 
+/2023-05-02 14:14:48,435 INFO  [ebanking] customer id is entered 
+/2023-05-02 14:14:51,325 INFO  [ebanking] successfully clicked on submit button 
+/2023-05-02 14:14:56,356 INFO  [ebanking] Test Case is passed 
+/2023-05-02 14:16:00,677 INFO  [ebanking] clicked on New Account 
+/2023-05-02 14:16:05,773 INFO  [ebanking] double clicked on New Account page 
+/2023-05-02 14:16:11,007 INFO  [ebanking] customer id is entered 
+/2023-05-02 14:16:13,393 INFO  [ebanking] Account type is selected 
+/2023-05-02 14:16:18,550 INFO  [ebanking] initial deposit id is entered 
+/2023-05-02 14:16:24,774 INFO  [ebanking] clicked on submit 
+/2023-05-02 14:16:29,785 INFO  [ebanking] Test case is passed 
+/2023-05-02 14:20:01,529 INFO  [ebanking] User Successfully loggedin 
+/2023-05-02 14:20:42,809 INFO  [ebanking] URL is opened 
+/2023-05-02 14:20:42,989 INFO  [ebanking] username is entered 
+/2023-05-02 14:20:46,150 INFO  [ebanking] password is entered 
+/2023-05-02 14:20:58,923 INFO  [ebanking] Login Test is passed 
+/2023-05-02 14:21:23,859 INFO  [ebanking] clicked on new customer 
+/2023-05-02 14:21:35,638 INFO  [ebanking] customer is entered 
+/2023-05-02 14:21:35,743 INFO  [ebanking] customer gender is selected 
+/2023-05-02 14:21:38,918 INFO  [ebanking] customer date of birth is entered 
+/2023-05-02 14:21:42,191 INFO  [ebanking] customer address is entered 
+/2023-05-02 14:21:42,323 INFO  [ebanking] customer city is entered 
+/2023-05-02 14:21:42,436 INFO  [ebanking] customer state is entered 
+/2023-05-02 14:21:42,539 INFO  [ebanking] customer pincode is entered 
+/2023-05-02 14:21:42,645 INFO  [ebanking] customer phone number is entered 
+/2023-05-02 14:21:42,792 INFO  [ebanking] customer email address is entered 
+/2023-05-02 14:21:47,868 INFO  [ebanking] clicked on submit button 
+/2023-05-02 14:21:50,897 INFO  [ebanking] Test Case is passed 
+/2023-05-02 14:22:15,347 INFO  [ebanking] clicked on login button 
+/2023-05-02 14:22:18,500 INFO  [ebanking] clicked on edit cust button 
+/2023-05-02 14:22:23,580 INFO  [ebanking] double clicked on page 
+/2023-05-02 14:22:27,215 INFO  [ebanking] customer Id is entered 
+/2023-05-02 14:22:35,237 INFO  [ebanking] clicked on submit button 
+/2023-05-02 14:22:35,261 INFO  [ebanking] Test case is successfully Passed 
+/2023-05-02 14:22:54,154 INFO  [ebanking] successfully clicked on delete button 
+/2023-05-02 14:22:59,205 INFO  [ebanking] double clicked on  page 
+/2023-05-02 14:23:04,386 INFO  [ebanking] customer id is entered 
+/2023-05-02 14:23:07,478 INFO  [ebanking] successfully clicked on submit button 
+/2023-05-02 14:23:12,498 INFO  [ebanking] Test Case is passed 
+/2023-05-02 14:23:35,275 INFO  [ebanking] clicked on New Account 
+/2023-05-02 14:23:40,339 INFO  [ebanking] double clicked on New Account page 
+/2023-05-02 14:23:45,503 INFO  [ebanking] customer id is entered 
+/2023-05-02 14:23:47,785 INFO  [ebanking] Account type is selected 
+/2023-05-02 14:23:53,041 INFO  [ebanking] initial deposit id is entered 
+/2023-05-02 14:23:59,662 INFO  [ebanking] clicked on submit 
+/2023-05-02 14:24:04,684 INFO  [ebanking] Test case is passed 
+/2023-05-02 14:24:21,136 INFO  [ebanking] User Successfully loggedin 
+/2023-05-02 14:24:24,260 INFO  [ebanking] clicked on edit Account link 
+/2023-05-02 14:24:27,367 INFO  [ebanking] double clicked on page 
+/2023-05-02 14:24:31,344 INFO  [ebanking] Account number is entered 
+/2023-05-02 14:24:33,499 INFO  [ebanking] clicked on  submit button 
+/2023-05-02 14:24:37,526 INFO  [ebanking] Test case is passed 
+/2023-05-02 14:25:02,310 INFO  [ebanking] Logein Successfully 
+/2023-05-02 14:25:07,534 INFO  [ebanking] clicked on delete account Successfully 
+/2023-05-02 14:25:14,120 INFO  [ebanking] Account number inserted successfully 
+/2023-05-02 14:25:16,625 INFO  [ebanking] clicked on submit button Successfully 
+/2023-05-02 14:25:21,635 INFO  [ebanking] Test Case Successfully passed 
+/2023-05-02 14:25:43,146 INFO  [ebanking] Login Successfully 
+/2023-05-02 14:25:48,274 INFO  [ebanking] clicked on Customised StatementLink 
+/2023-05-02 14:25:53,325 INFO  [ebanking] double clicked on page  
+/2023-05-02 14:25:55,621 INFO  [ebanking] Account number is inserted  
+/2023-05-02 14:25:56,799 INFO  [ebanking] from date is entered  
+/2023-05-02 14:25:57,976 INFO  [ebanking] to date is entered  
+/2023-05-02 14:25:59,191 INFO  [ebanking] Lower Amount is entered 
+/2023-05-02 14:26:00,350 INFO  [ebanking] no Of transaction is entered 
+/2023-05-02 14:26:05,337 INFO  [ebanking] clicked on submit button 
+/2023-05-02 14:26:08,856 INFO  [ebanking] Test Case is passed 
+/2023-05-02 14:26:33,186 INFO  [ebanking] login successfully 
+/2023-05-02 14:26:35,426 INFO  [ebanking] clicked on logout link 
+/2023-05-02 14:26:40,522 INFO  [ebanking] logout successfully passed 
+/2023-05-02 14:36:35,134 INFO  [ebanking] URL is opened 
+/2023-05-02 14:36:35,372 INFO  [ebanking] username is entered 
+/2023-05-02 14:36:48,725 INFO  [ebanking] clicked on new customer 
+/2023-05-02 14:37:19,672 INFO  [ebanking] clicked on login button 
+/2023-05-02 14:42:27,523 INFO  [ebanking] URL is opened 
+/2023-05-02 14:42:27,771 INFO  [ebanking] username is entered 
+/2023-05-02 14:42:50,207 INFO  [ebanking] clicked on new customer 
+/2023-05-02 14:46:21,273 INFO  [ebanking] username is entered 
+/2023-05-02 14:46:24,475 INFO  [ebanking] password is entered 
+/2023-05-02 14:46:34,416 INFO  [ebanking] Login Test is passed 
+/2023-05-02 14:47:29,121 INFO  [ebanking] username is entered 
+/2023-05-02 14:47:32,278 INFO  [ebanking] password is entered 
+/2023-05-02 14:47:44,812 INFO  [ebanking] Login Test is passed 
+/2023-05-02 14:49:44,708 INFO  [ebanking] clicked on new customer 
+/2023-05-02 14:49:56,641 INFO  [ebanking] customer is entered 
+/2023-05-02 14:49:56,774 INFO  [ebanking] customer gender is selected 
+/2023-05-02 14:50:00,023 INFO  [ebanking] customer date of birth is entered 
+/2023-05-02 14:50:03,294 INFO  [ebanking] customer address is entered 
+/2023-05-02 14:50:03,398 INFO  [ebanking] customer city is entered 
+/2023-05-02 14:50:03,504 INFO  [ebanking] customer state is entered 
+/2023-05-02 14:50:03,596 INFO  [ebanking] customer pincode is entered 
+/2023-05-02 14:50:03,695 INFO  [ebanking] customer phone number is entered 
+/2023-05-02 14:50:03,821 INFO  [ebanking] customer email address is entered 
+/2023-05-02 14:50:08,840 INFO  [ebanking] clicked on submit button 
+/2023-05-02 14:50:11,859 INFO  [ebanking] Test Case is passed 
+/2023-05-02 14:53:17,369 INFO  [ebanking] clicked on new customer 
+/2023-05-02 14:57:23,958 INFO  [ebanking] username is entered 
+/2023-05-02 14:57:45,347 INFO  [ebanking] login successfully 
+/2023-05-02 14:57:52,317 INFO  [ebanking] clicked on logout link 
+/2023-05-02 14:59:29,659 INFO  [ebanking] username is entered 
+/2023-05-02 14:59:32,806 INFO  [ebanking] password is entered 
+/2023-05-02 14:59:41,497 INFO  [ebanking] Login Test is passed 
+/2023-05-02 15:00:28,078 INFO  [ebanking] username is entered 
+/2023-05-02 15:00:36,375 INFO  [ebanking] login successfully 
+/2023-05-02 15:00:43,846 INFO  [ebanking] clicked on logout link 
+/2023-05-02 15:02:04,367 INFO  [ebanking] username is entered 
+/2023-05-02 15:02:07,548 INFO  [ebanking] password is entered 
+/2023-05-02 15:02:15,714 INFO  [ebanking] Login Test is passed 
+/2023-05-02 15:02:35,061 INFO  [ebanking] clicked on new customer 
+/2023-05-02 15:02:45,303 INFO  [ebanking] customer is entered 
+/2023-05-02 15:02:45,401 INFO  [ebanking] customer gender is selected 
+/2023-05-02 15:02:48,589 INFO  [ebanking] customer date of birth is entered 
+/2023-05-02 15:02:51,774 INFO  [ebanking] customer address is entered 
+/2023-05-02 15:02:51,884 INFO  [ebanking] customer city is entered 
+/2023-05-02 15:02:51,994 INFO  [ebanking] customer state is entered 
+/2023-05-02 15:02:52,104 INFO  [ebanking] customer pincode is entered 
+/2023-05-02 15:02:52,226 INFO  [ebanking] customer phone number is entered 
+/2023-05-02 15:02:52,367 INFO  [ebanking] customer email address is entered 
+/2023-05-02 15:02:57,396 INFO  [ebanking] clicked on submit button 
+/2023-05-02 15:03:00,415 INFO  [ebanking] Test Case is passed 
+/2023-05-02 15:03:26,538 INFO  [ebanking] clicked on login button 
+/2023-05-02 15:03:29,789 INFO  [ebanking] clicked on edit cust button 
+/2023-05-02 15:03:34,852 INFO  [ebanking] double clicked on page 
+/2023-05-02 15:03:38,036 INFO  [ebanking] customer Id is entered 
+/2023-05-02 15:03:45,777 INFO  [ebanking] clicked on submit button 
+/2023-05-02 15:03:45,797 INFO  [ebanking] Test case is successfully Passed 
+/2023-05-02 15:04:06,470 INFO  [ebanking] successfully clicked on delete button 
+/2023-05-02 15:04:11,534 INFO  [ebanking] double clicked on  page 
+/2023-05-02 15:04:16,678 INFO  [ebanking] customer id is entered 
+/2023-05-02 15:04:19,897 INFO  [ebanking] successfully clicked on submit button 
+/2023-05-02 15:04:24,916 INFO  [ebanking] Test Case is passed 
+/2023-05-02 15:04:44,192 INFO  [ebanking] clicked on New Account 
+/2023-05-02 15:04:49,233 INFO  [ebanking] double clicked on New Account page 
+/2023-05-02 15:04:54,379 INFO  [ebanking] customer id is entered 
+/2023-05-02 15:04:56,952 INFO  [ebanking] Account type is selected 
+/2023-05-02 15:05:02,137 INFO  [ebanking] initial deposit id is entered 
+/2023-05-02 15:05:09,546 INFO  [ebanking] clicked on submit 
+/2023-05-02 15:05:14,550 INFO  [ebanking] Test case is passed 
+/2023-05-02 15:05:30,169 INFO  [ebanking] User Successfully loggedin 
+/2023-05-02 15:05:33,270 INFO  [ebanking] clicked on edit Account link 
+/2023-05-02 15:05:36,314 INFO  [ebanking] double clicked on page 
+/2023-05-02 15:05:40,288 INFO  [ebanking] Account number is entered 
+/2023-05-02 15:05:41,344 INFO  [ebanking] clicked on  submit button 
+/2023-05-02 15:05:45,365 INFO  [ebanking] Test case is passed 
+/2023-05-02 15:06:02,813 INFO  [ebanking] Logein Successfully 
+/2023-05-02 15:06:07,961 INFO  [ebanking] clicked on delete account Successfully 
+/2023-05-02 15:06:13,611 INFO  [ebanking] Account number inserted successfully 
+/2023-05-02 15:06:15,249 INFO  [ebanking] clicked on submit button Successfully 
+/2023-05-02 15:06:20,270 INFO  [ebanking] Test Case Successfully passed 
+/2023-05-02 15:06:39,854 INFO  [ebanking] Login Successfully 
+/2023-05-02 15:06:44,980 INFO  [ebanking] clicked on Customised StatementLink 
+/2023-05-02 15:06:50,047 INFO  [ebanking] double clicked on page  
+/2023-05-02 15:06:52,146 INFO  [ebanking] Account number is inserted  
+/2023-05-02 15:06:53,299 INFO  [ebanking] from date is entered  
+/2023-05-02 15:06:54,449 INFO  [ebanking] to date is entered  
+/2023-05-02 15:06:55,563 INFO  [ebanking] Lower Amount is entered 
+/2023-05-02 15:06:56,695 INFO  [ebanking] no Of transaction is entered 
+/2023-05-02 15:07:01,069 INFO  [ebanking] clicked on submit button 
+/2023-05-02 15:07:04,586 INFO  [ebanking] Test Case is passed 
+/2023-05-02 15:07:28,823 INFO  [ebanking] login successfully 
+/2023-05-02 15:07:29,846 INFO  [ebanking] clicked on logout link 
+/2023-05-02 15:07:34,868 INFO  [ebanking] logout successfully passed 
+/2023-05-03 13:59:27,047 INFO  [ebanking] username is entered 
+/2023-05-03 13:59:30,355 INFO  [ebanking] password is entered 
+/2023-05-03 13:59:41,342 INFO  [ebanking] Login Test is passed 
+/2023-05-03 14:03:33,449 INFO  [ebanking] username is entered 
+/2023-05-03 14:03:33,460 INFO  [ebanking] username is entered 
+/2023-05-03 14:03:38,101 INFO  [ebanking] password is entered 
+/2023-05-03 14:03:38,407 INFO  [ebanking] password is entered 
+/2023-05-03 14:05:31,718 INFO  [ebanking] username is entered 
+/2023-05-03 14:05:35,143 INFO  [ebanking] password is entered 
+/2023-05-03 14:05:46,633 INFO  [ebanking] username is entered 
+/2023-05-03 14:05:47,194 INFO  [ebanking] Login Test is failed 
+/2023-05-03 14:07:59,614 INFO  [ebanking] username is entered 
+/2023-05-03 14:08:02,805 INFO  [ebanking] password is entered 
+/2023-05-03 14:08:10,542 INFO  [ebanking] Login Test is passed 
+/2023-05-03 14:09:16,097 INFO  [ebanking] username is entered 
+/2023-05-03 14:09:19,221 INFO  [ebanking] password is entered 
+/2023-05-03 14:09:30,398 INFO  [ebanking] Login Test is passed 
+/2023-05-03 14:13:29,873 INFO  [ebanking] username is entered 
+/2023-05-03 14:13:33,106 INFO  [ebanking] password is entered 
+/2023-05-03 14:13:40,655 INFO  [ebanking] Login Test is passed 
+/2023-05-03 14:15:15,736 INFO  [ebanking] username is entered 
+/2023-05-03 14:15:15,905 INFO  [ebanking] username is entered 
+/2023-05-03 14:15:18,964 INFO  [ebanking] password is entered 
+/2023-05-03 14:15:19,141 INFO  [ebanking] password is entered 
+/

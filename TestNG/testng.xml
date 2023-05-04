@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNG.DescriptionInTestNG"/>
+      <class name="TestNG.TimeOutInTestNG"/>
+      <class name="TestNG.DemoTestNG"/>
+      <class name="TestNG.DemoTestNG2"/>
+      <class name="TestNG.BeforeMethodandAfterMethod"/>
+      <class name="TestNG.ExceptionHandling"/>
+      <class name="TestNG.Annotation"/>
+      <class name="TestNG.EnableTrueFalse"/>
+      <class name="TestNG.DependsOnMethod"/>
+      <class name="TestNG.PriorityInTestNG"/>
+      <class name="TestNG.BeforeTestAfterTest"/>
+      <class name="TestNG.GroupExamplle"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

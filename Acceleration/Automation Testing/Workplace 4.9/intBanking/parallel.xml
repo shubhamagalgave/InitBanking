@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="parllelSuite">
+  <test thread-count="5" name="parllelTest">
+    <classes>
+      <class name="com.intBanking.testCases.BaseClass"/>
+      <class name="com.intBanking.testCases.TC_EditCustTest"/>
+      <class name="com.intBanking.testCases.TC_DeleteTest"/>
+      <class name="com.intBanking.testCases.TC_EditAccountTest"/>
+      <class name="com.intBanking.testCases.TC_LogoutTest"/>
+      <class name="com.intBanking.testCases.TC_LoginTest_001"/>
+      <class name="com.intBanking.testCases.TC_DeleteAccountTest"/>
+      <class name="com.intBanking.testCases.TC_NewAccTest"/>
+      <class name="com.intBanking.testCases.TC_AddCustTest"/>
+      <class name="com.intBanking.testCases.TC_MiniStatement"/>
+      <class name="com.intBanking.testCases.TC_CustomisedStatement"/>
+    </classes>
+  </test> <!-- parllelTest -->
+</suite> <!-- parllelSuite -->
