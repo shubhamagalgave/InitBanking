@@ -27,8 +27,6 @@ public class PathandQueryParameter {
 		
 		    then()
 		    .statusCode(200)           
-		  // .body("id",equalTo(5))
-		  // .body("first_name",equalTo("Charles"))  
 		    .log().all();             
 		}
 
