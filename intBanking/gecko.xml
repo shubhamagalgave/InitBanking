@@ -1,17 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="intBanking">
+<suite name="intBanking" parallel="tests" thread-count="2">
 
 	<listeners>
 		<listener class-name="com.intBanking.utilities.Reporting" />
 	</listeners>
 
-	<test name="BankingApp Test">
+	<test name="BankingApp Test1">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.intBanking.testCases.TC_CalculateAllBrokanLinkFromThePage" />
+			<class name="com.intBanking.testCases.TC_LoginTest_001" />
+			<class name="com.intBanking.testCases.TC_AddCustTest" />
+			<class name="com.intBanking.testCases.TC_EditCustTest" />
+			<class name="com.intBanking.testCases.TC_DeleteTest" />
+			<class name="com.intBanking.testCases.TC_NewAccTest" />
+			<class name="com.intBanking.testCases.TC_EditAccountTest" />
+			<class name="com.intBanking.testCases.TC_DeleteAccountTest" />
+			<class name="com.intBanking.testCases.TC_DeleteAccountTest" />
+			<class name="com.intBanking.testCases.TC_CustomisedStatement" />
+			<class name="com.intBanking.testCases.TC_LogoutTest" />
 		</classes>
 	</test>
+	
+	<test name="BankingApp Test2">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.intBanking.testCases.TC_LoginTest_001" />
+			<class name="com.intBanking.testCases.TC_AddCustTest" />
+			<class name="com.intBanking.testCases.TC_EditCustTest" />
+			<class name="com.intBanking.testCases.TC_DeleteTest" />
+			<class name="com.intBanking.testCases.TC_NewAccTest" />
+			<class name="com.intBanking.testCases.TC_EditAccountTest" />
+			<class name="com.intBanking.testCases.TC_DeleteAccountTest" />
+			<class name="com.intBanking.testCases.TC_DeleteAccountTest" />
+			<class name="com.intBanking.testCases.TC_CustomisedStatement" />
+			<class name="com.intBanking.testCases.TC_LogoutTest" />
+		</classes>
+	</test>
+	
 
 
 </suite>

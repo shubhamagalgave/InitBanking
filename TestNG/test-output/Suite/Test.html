@@ -1,0 +1,360 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 12 12:10:20 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>3 seconds (3133 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNG.DemoTestNG2.TestCase2()'><b>TestCase2</b><br>Test class: TestNG.DemoTestNG2</td>
+<td><div><pre>java.lang.IllegalStateException: The driver executable does not exist: E:\Acceleration\Automation Testing\Workplace 4.9\TestNG\src\Executable\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at TestNG.DemoTestNG2.TestCase2(DemoTestNG2.java:15)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace26728049", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace26728049'><pre>java.lang.IllegalStateException: The driver executable does not exist: E:\Acceleration\Automation Testing\Workplace 4.9\TestNG\src\Executable\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at TestNG.DemoTestNG2.TestCase2(DemoTestNG2.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>TestNG.DemoTestNG2@60285225</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNG.DemoTestNG.TestCase1()'><b>TestCase1</b><br>Test class: TestNG.DemoTestNG</td>
+<td></td>
+<td>2</td>
+<td>TestNG.DemoTestNG@29b5cd00</td></tr>
+<tr>
+<td title='TestNG.EnableTrueFalse.enable3()'><b>enable3</b><br>Test class: TestNG.EnableTrueFalse</td>
+<td></td>
+<td>0</td>
+<td>TestNG.EnableTrueFalse@74ad1f1f</td></tr>
+<tr>
+<td title='TestNG.DependsOnMethod.logIn()'><b>logIn</b><br>Test class: TestNG.DependsOnMethod</td>
+<td></td>
+<td>0</td>
+<td>TestNG.DependsOnMethod@6a1aab78</td></tr>
+<tr>
+<td title='TestNG.BeforeMethodandAfterMethod.VerifyLogIn()'><b>VerifyLogIn</b><br>Test class: TestNG.BeforeMethodandAfterMethod</td>
+<td></td>
+<td>0</td>
+<td>TestNG.BeforeMethodandAfterMethod@6043cd28</td></tr>
+<tr>
+<td title='TestNG.Annotation.DeleteTask()'><b>DeleteTask</b><br>Test class: TestNG.Annotation</td>
+<td></td>
+<td>0</td>
+<td>TestNG.Annotation@491cc5c9</td></tr>
+<tr>
+<td title='TestNG.PriorityInTestNG.sendEmail()'><b>sendEmail</b><br>Test class: TestNG.PriorityInTestNG</td>
+<td></td>
+<td>0</td>
+<td>TestNG.PriorityInTestNG@462d5aee</td></tr>
+<tr>
+<td title='TestNG.DependsOnMethod.signIn()'><b>signIn</b><br>Test class: TestNG.DependsOnMethod</td>
+<td></td>
+<td>0</td>
+<td>TestNG.DependsOnMethod@6a1aab78</td></tr>
+<tr>
+<td title='TestNG.ExceptionHandling.signIn()'><b>signIn</b><br>Test class: TestNG.ExceptionHandling</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at TestNG.ExceptionHandling.signIn(ExceptionHandling.java:20)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace597190999", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace597190999'><pre>java.lang.ArithmeticException: / by zero
+	at TestNG.ExceptionHandling.signIn(ExceptionHandling.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>TestNG.ExceptionHandling@1b26f7b2</td></tr>
+<tr>
+<td title='TestNG.BeforeMethodandAfterMethod.DeleteTask()'><b>DeleteTask</b><br>Test class: TestNG.BeforeMethodandAfterMethod</td>
+<td></td>
+<td>0</td>
+<td>TestNG.BeforeMethodandAfterMethod@6043cd28</td></tr>
+<tr>
+<td title='TestNG.GroupExamplle.testCaseThree()'><b>testCaseThree</b><br>Test class: TestNG.GroupExamplle</td>
+<td></td>
+<td>0</td>
+<td>TestNG.GroupExamplle@757942a1</td></tr>
+<tr>
+<td title='TestNG.GroupExamplle.testCaseFour()'><b>testCaseFour</b><br>Test class: TestNG.GroupExamplle</td>
+<td></td>
+<td>0</td>
+<td>TestNG.GroupExamplle@757942a1</td></tr>
+<tr>
+<td title='TestNG.GroupExamplle.testCaseFive()'><b>testCaseFive</b><br>Test class: TestNG.GroupExamplle</td>
+<td></td>
+<td>0</td>
+<td>TestNG.GroupExamplle@757942a1</td></tr>
+<tr>
+<td title='TestNG.Annotation.CreateTask()'><b>CreateTask</b><br>Test class: TestNG.Annotation</td>
+<td></td>
+<td>0</td>
+<td>TestNG.Annotation@491cc5c9</td></tr>
+<tr>
+<td title='TestNG.BeforeMethodandAfterMethod.CreateTask()'><b>CreateTask</b><br>Test class: TestNG.BeforeMethodandAfterMethod</td>
+<td></td>
+<td>0</td>
+<td>TestNG.BeforeMethodandAfterMethod@6043cd28</td></tr>
+<tr>
+<td title='TestNG.GroupExamplle.testCaseOne()'><b>testCaseOne</b><br>Test class: TestNG.GroupExamplle</td>
+<td></td>
+<td>0</td>
+<td>TestNG.GroupExamplle@757942a1</td></tr>
+<tr>
+<td title='TestNG.GroupExamplle.testCaseTwo()'><b>testCaseTwo</b><br>Test class: TestNG.GroupExamplle</td>
+<td></td>
+<td>0</td>
+<td>TestNG.GroupExamplle@757942a1</td></tr>
+<tr>
+<td title='TestNG.ExceptionHandling.checkNotification()'><b>checkNotification</b><br>Test class: TestNG.ExceptionHandling</td>
+<td></td>
+<td>0</td>
+<td>TestNG.ExceptionHandling@1b26f7b2</td></tr>
+<tr>
+<td title='TestNG.PriorityInTestNG.logout()'><b>logout</b><br>Test class: TestNG.PriorityInTestNG</td>
+<td></td>
+<td>0</td>
+<td>TestNG.PriorityInTestNG@462d5aee</td></tr>
+<tr>
+<td title='TestNG.TimeOutInTestNG.logIn()'><b>logIn</b><br>Test class: TestNG.TimeOutInTestNG</td>
+<td></td>
+<td>0</td>
+<td>TestNG.TimeOutInTestNG@e874448</td></tr>
+<tr>
+<td title='TestNG.PriorityInTestNG.login()'><b>login</b><br>Test class: TestNG.PriorityInTestNG</td>
+<td></td>
+<td>0</td>
+<td>TestNG.PriorityInTestNG@462d5aee</td></tr>
+<tr>
+<td title='TestNG.ExceptionHandling.logIn()'><b>logIn</b><br>Test class: TestNG.ExceptionHandling</td>
+<td></td>
+<td>0</td>
+<td>TestNG.ExceptionHandling@1b26f7b2</td></tr>
+<tr>
+<td title='TestNG.Annotation.VerifyLogIn()'><b>VerifyLogIn</b><br>Test class: TestNG.Annotation</td>
+<td></td>
+<td>0</td>
+<td>TestNG.Annotation@491cc5c9</td></tr>
+<tr>
+<td title='TestNG.BeforeTestAfterTest.CreateTask()'><b>CreateTask</b><br>Test class: TestNG.BeforeTestAfterTest</td>
+<td></td>
+<td>0</td>
+<td>TestNG.BeforeTestAfterTest@69b0fd6f</td></tr>
+<tr>
+<td title='TestNG.EnableTrueFalse.enable1()'><b>enable1</b><br>Test class: TestNG.EnableTrueFalse</td>
+<td></td>
+<td>0</td>
+<td>TestNG.EnableTrueFalse@74ad1f1f</td></tr>
+<tr>
+<td title='TestNG.DescriptionInTestNG.logIn()'><b>logIn</b><br>Test class: TestNG.DescriptionInTestNG<br>Test method: Checking the login functionality</td>
+<td></td>
+<td>0</td>
+<td>TestNG.DescriptionInTestNG@6f195bc3</td></tr>
+<tr>
+<td title='TestNG.TimeOutInTestNG.signIn()'><b>signIn</b><br>Test class: TestNG.TimeOutInTestNG</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at TestNG.TimeOutInTestNG.signIn(TimeOutInTestNG.java:27)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1195067075", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1195067075'><pre>java.lang.ArithmeticException: / by zero
+	at TestNG.TimeOutInTestNG.signIn(TimeOutInTestNG.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>TestNG.TimeOutInTestNG@e874448</td></tr>
+<tr>
+<td title='TestNG.BeforeTestAfterTest.VerifyLogIn()'><b>VerifyLogIn</b><br>Test class: TestNG.BeforeTestAfterTest</td>
+<td></td>
+<td>0</td>
+<td>TestNG.BeforeTestAfterTest@69b0fd6f</td></tr>
+<tr>
+<td title='TestNG.TimeOutInTestNG.checkNotification()'><b>checkNotification</b><br>Test class: TestNG.TimeOutInTestNG</td>
+<td></td>
+<td>0</td>
+<td>TestNG.TimeOutInTestNG@e874448</td></tr>
+<tr>
+<td title='TestNG.DemoTestNG.TestCase2()'><b>TestCase2</b><br>Test class: TestNG.DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>TestNG.DemoTestNG@29b5cd00</td></tr>
+<tr>
+<td title='TestNG.DependsOnMethod.checkNotification()'><b>checkNotification</b><br>Test class: TestNG.DependsOnMethod</td>
+<td></td>
+<td>0</td>
+<td>TestNG.DependsOnMethod@6a1aab78</td></tr>
+</table><p>
+</body>
+</html>

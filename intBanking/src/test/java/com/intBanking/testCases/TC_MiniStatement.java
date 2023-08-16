@@ -5,6 +5,8 @@ import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.intBanking.pageObjects.LoginPage;
@@ -16,6 +18,7 @@ public class TC_MiniStatement extends BaseClass {
 	@Test
 	public void miniStatement() throws InterruptedException, IOException
 	{
+		WebDriver driver=getDriver();
 	     LoginPage lpp=new LoginPage(driver);
 	     lpp.setUserName(username);
 	     lpp.setPassWord(password);

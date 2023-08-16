@@ -1,5 +1,6 @@
 package com.intBanking.testCases;
 import org.testng.annotations.Test;
+import org.openqa.selenium.WebDriver;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -14,6 +15,7 @@ public class TC_DeleteAccountTest extends BaseClass{
 	@Test
 	public void deleteAccount() throws IOException, InterruptedException
 	{
+		WebDriver driver=getDriver();
 		LoginPage lpp=new LoginPage(driver);
 		lpp.setUserName(username);
 		lpp.setPassWord(password);

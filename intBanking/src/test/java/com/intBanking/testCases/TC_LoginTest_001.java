@@ -1,4 +1,5 @@
 package com.intBanking.testCases;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -11,6 +12,7 @@ public class TC_LoginTest_001 extends BaseClass {
 	
 	@Test
 	public void loginTest() throws InterruptedException, IOException {
+		WebDriver driver=getDriver();
 	
 		LoginPage log= new LoginPage(driver);
 	

@@ -1,13 +1,12 @@
 package com.intBanking.testCases;
 
 
-
-import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
@@ -18,6 +17,7 @@ public class TC_CalculateAllBrokanLinkFromThePage extends BaseClass {
 	@Test
 	public void brokenLink() throws InterruptedException
 	{
+		WebDriver driver=getDriver();
 		LoginPage lp = new LoginPage(driver);
 		lp.setUserName(username);
 		lp.setPassWord(password);

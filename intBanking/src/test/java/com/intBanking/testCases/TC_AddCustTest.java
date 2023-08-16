@@ -5,6 +5,8 @@ import org.testng.annotations.Test;
 import java.awt.AWTException;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 import com.intBanking.pageObjects.LoginPage;
@@ -15,7 +17,7 @@ public class TC_AddCustTest extends BaseClass{
 	@Test
 	public void addCustomer() throws InterruptedException, AWTException, IOException
 	{
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		WebDriver driver=getDriver();
     	LoginPage login = new LoginPage(driver);
 	    login.setUserName(username);
 	    login.setPassWord(password);

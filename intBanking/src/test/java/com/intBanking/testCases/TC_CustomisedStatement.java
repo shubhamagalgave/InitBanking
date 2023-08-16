@@ -7,6 +7,7 @@ import org.testng.AssertJUnit;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.intBanking.pageObjects.CustomisedStatement;
@@ -17,7 +18,7 @@ public class TC_CustomisedStatement extends BaseClass{
 	@Test
 	public void customisedStatement() throws InterruptedException, IOException
 	{
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		 WebDriver driver=getDriver();
 	     LoginPage lpp=new LoginPage(driver);
 	     lpp.setUserName(username);
 	     lpp.setPassWord(password);
@@ -60,7 +61,7 @@ public class TC_CustomisedStatement extends BaseClass{
 		 }
 	     else {
 			captureScreenShot(driver, "ministatement");
-			AssertJUnit.assertTrue(true);
+			Assert.assertTrue(true);
 			Logger.info("Test Case is failed");	
 		  }
     }

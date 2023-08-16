@@ -15,6 +15,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -29,10 +30,19 @@ public class BaseClass {
 		public String password=readconfig.getPassWord();
 		public String chromepath=readconfig.getChromePath();
         public static Logger Logger;
-        public static WebDriver driver;
+       // public static WebDriver driver;
         
-        @Parameters("browser")
+        
+        public static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<RemoteWebDriver>();
+        
+        
+        public static WebDriver getDriver() {
+    		// Get Driver from threadLocalmap
+    		return driver.get();
+    	}
+
 		@BeforeClass
+		@Parameters("browser")
 		public void setup(String browser)
 		{
 		    Logger=Logger.getLogger("ebanking");
@@ -41,11 +51,13 @@ public class BaseClass {
 			
 			if (browser.equalsIgnoreCase("chrome")) {
 				System.setProperty("webdriver.chrome.driver",readconfig.getChromePath());
-				driver=new ChromeDriver();
+				//driver=new ChromeDriver();
+				driver.set(new ChromeDriver());
 			 }
 			else if (browser.equalsIgnoreCase("firefox")){
 				System.setProperty("webdriver.gecko.driver",readconfig.getFireFoxPath());
-				driver=new FirefoxDriver();
+				//driver=new FirefoxDriver();
+				driver.set(new FirefoxDriver());
 			}
 			else if (browser.equalsIgnoreCase("edge")){
 				//System.setProperty("webdriver.chrome.driver",readconfig.getChromePath());
@@ -54,9 +66,13 @@ public class BaseClass {
 			else {
 				System.out.println("Enter Right parameter");
 			}
-			driver.manage().window().maximize();
-			driver.get(baseUrl);
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			//driver.manage().window().maximize();
+			//driver.get(baseUrl);
+			//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			
+			getDriver().manage().window().maximize();
+			getDriver().get(baseUrl);
+			getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 					
 		}
 		
@@ -64,12 +80,14 @@ public class BaseClass {
 		@AfterClass
 		public void tearDown()
 		{
-			driver.quit();
+			//driver.quit();
+			getDriver().quit();
 		}
 		
 		public static void captureScreenShot(WebDriver driver,String tname) throws IOException
 		{
-			TakesScreenshot ts = (TakesScreenshot) driver;
+			//TakesScreenshot ts = (TakesScreenshot) driver;
+			TakesScreenshot ts = (TakesScreenshot) getDriver();
 			File srs=ts.getScreenshotAs(OutputType.FILE);
 			File trg=new File(".\\ScreenShot\\"+tname+".png");
 			FileUtils.copyFile(srs, trg);
@@ -78,17 +96,23 @@ public class BaseClass {
 		
 		public static void doubleClick()
 		{
-			Actions act = new Actions(driver);
+			//Actions act = new Actions(driver);
+			Actions act = new Actions(getDriver());
 			act.doubleClick().build().perform();
 		}
 		
 		public static void clickByJSExecutor(WebElement element)
 		{
-			JavascriptExecutor js=(JavascriptExecutor) driver;
+			//JavascriptExecutor js=(JavascriptExecutor) driver;
+			JavascriptExecutor js=(JavascriptExecutor) getDriver();
 			js.executeScript("arguments[0].click();", element);
-
-
 		}
+		/***
+		 public static void closeBrowser() {
+	    		// Get Driver from threadLocalmap
+			     getDriver().close();
+	    		 driver.remove();;
+	    	}*/
 
 	}
 

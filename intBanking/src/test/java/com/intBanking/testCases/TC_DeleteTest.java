@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import java.io.IOException;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -17,6 +18,7 @@ public class TC_DeleteTest extends BaseClass {
 	@Test
 	public void deleteCustomer() throws InterruptedException, IOException
 	{
+		WebDriver driver=getDriver();
 		LoginPage lo=new LoginPage(driver);
 		lo.setUserName(username);
 		lo.setPassWord(password);

@@ -7,13 +7,69 @@
   <test thread-count="5" name="BankingApp Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.intBanking.testCases.TC_CalculateAllBrokanLinkFromThePage">
+      <class name="com.intBanking.testCases.TC_LoginTest_001">
         <methods>
-          <include name="brokenLink"/>
+          <include name="loginTest"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.intBanking.testCases.TC_CalculateAllBrokanLinkFromThePage -->
+      </class> <!-- com.intBanking.testCases.TC_LoginTest_001 -->
+      <class name="com.intBanking.testCases.TC_NewAccTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="newAccount"/>
+        </methods>
+      </class> <!-- com.intBanking.testCases.TC_NewAccTest -->
+      <class name="com.intBanking.testCases.TC_DeleteTest">
+        <methods>
+          <include name="deleteCustomer"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.intBanking.testCases.TC_DeleteTest -->
+      <class name="com.intBanking.testCases.TC_LogoutTest">
+        <methods>
+          <include name="logout"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.intBanking.testCases.TC_LogoutTest -->
+      <class name="com.intBanking.testCases.TC_EditCustTest">
+        <methods>
+          <include name="setup"/>
+          <include name="editCustId"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.intBanking.testCases.TC_EditCustTest -->
+      <class name="com.intBanking.testCases.TC_AddCustTest">
+        <methods>
+          <include name="addCustomer"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.intBanking.testCases.TC_AddCustTest -->
+      <class name="com.intBanking.testCases.TC_CustomisedStatement">
+        <methods>
+          <include name="customisedStatement"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.intBanking.testCases.TC_CustomisedStatement -->
+      <class name="com.intBanking.testCases.TC_DeleteAccountTest">
+        <methods>
+          <include name="deleteAccount"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.intBanking.testCases.TC_DeleteAccountTest -->
+      <class name="com.intBanking.testCases.TC_EditAccountTest">
+        <methods>
+          <include name="editAccount"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.intBanking.testCases.TC_EditAccountTest -->
     </classes>
   </test> <!-- BankingApp Test(failed) -->
 </suite> <!-- Failed suite [intBanking] -->

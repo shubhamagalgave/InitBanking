@@ -19,6 +19,8 @@ public class ReadConfig {
 			System.out.println("Exception is "+e.getMessage());
 		}
 	}
+	
+	
 	public String getBaseUrl()
 	{
 		String url=prop.getProperty("baseUrl");

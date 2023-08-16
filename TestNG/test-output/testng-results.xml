@@ -1,24 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="1" total="32" passed="30">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="63" started-at="2022-07-04T23:40:40 IST" finished-at="2022-07-04T23:40:40 IST">
+  <suite name="Suite" duration-ms="3133" started-at="2023-06-12T12:10:20 IST" finished-at="2023-06-12T12:10:23 IST">
     <groups>
+      <group name="Smoke">
+        <method signature="GroupExamplle.testCaseFive()[pri:0, instance:TestNG.GroupExamplle@757942a1]" name="testCaseFive" class="TestNG.GroupExamplle"/>
+        <method signature="GroupExamplle.testCaseThree()[pri:0, instance:TestNG.GroupExamplle@757942a1]" name="testCaseThree" class="TestNG.GroupExamplle"/>
+      </group> <!-- Smoke -->
+      <group name="Regration">
+        <method signature="GroupExamplle.testCaseFour()[pri:0, instance:TestNG.GroupExamplle@757942a1]" name="testCaseFour" class="TestNG.GroupExamplle"/>
+        <method signature="GroupExamplle.testCaseOne()[pri:0, instance:TestNG.GroupExamplle@757942a1]" name="testCaseOne" class="TestNG.GroupExamplle"/>
+        <method signature="GroupExamplle.testCaseTwo()[pri:0, instance:TestNG.GroupExamplle@757942a1]" name="testCaseTwo" class="TestNG.GroupExamplle"/>
+      </group> <!-- Regration -->
     </groups>
-    <test name="Default test" duration-ms="63" started-at="2022-07-04T23:40:40 IST" finished-at="2022-07-04T23:40:40 IST">
-      <class name="DDT.DataDrivenTest">
-        <test-method status="FAIL" signature="getSheetCount()[pri:0, instance:DDT.DataDrivenTest@7e2d773b]" name="getSheetCount" duration-ms="16" started-at="2022-07-04T23:40:40 IST" finished-at="2022-07-04T23:40:40 IST">
-          <exception class="java.io.FileNotFoundException">
+    <test name="Test" duration-ms="3133" started-at="2023-06-12T12:10:20 IST" finished-at="2023-06-12T12:10:23 IST">
+      <class name="TestNG.PriorityInTestNG">
+        <test-method status="PASS" signature="login()[pri:0, instance:TestNG.PriorityInTestNG@462d5aee]" name="login" duration-ms="1" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestNG.PriorityInTestNG@462d5aee]" name="logout" duration-ms="4" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="sendEmail()[pri:0, instance:TestNG.PriorityInTestNG@462d5aee]" name="sendEmail" duration-ms="2" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmail -->
+      </class> <!-- TestNG.PriorityInTestNG -->
+      <class name="TestNG.DependsOnMethod">
+        <test-method status="PASS" signature="signIn()[pri:0, instance:TestNG.DependsOnMethod@6a1aab78]" name="signIn" duration-ms="2" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:TestNG.DependsOnMethod@6a1aab78]" name="logIn" duration-ms="2" started-at="2023-06-12T12:10:23 IST" depends-on-methods="TestNG.DependsOnMethod.signIn" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="checkNotification()[pri:0, instance:TestNG.DependsOnMethod@6a1aab78]" name="checkNotification" duration-ms="2" started-at="2023-06-12T12:10:23 IST" depends-on-methods="TestNG.DependsOnMethod.logIn" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNotification -->
+      </class> <!-- TestNG.DependsOnMethod -->
+      <class name="TestNG.DescriptionInTestNG">
+        <test-method status="PASS" signature="logIn()[pri:0, instance:TestNG.DescriptionInTestNG@6f195bc3]" name="logIn" duration-ms="11" started-at="2023-06-12T12:10:20 IST" description="Checking the login functionality" finished-at="2023-06-12T12:10:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+      </class> <!-- TestNG.DescriptionInTestNG -->
+      <class name="TestNG.DemoTestNG">
+        <test-method status="PASS" signature="TestCase1()[pri:0, instance:TestNG.DemoTestNG@29b5cd00]" name="TestCase1" duration-ms="2008" started-at="2023-06-12T12:10:20 IST" finished-at="2023-06-12T12:10:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+        <test-method status="PASS" signature="TestCase2()[pri:0, instance:TestNG.DemoTestNG@29b5cd00]" name="TestCase2" duration-ms="5" started-at="2023-06-12T12:10:22 IST" finished-at="2023-06-12T12:10:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase2 -->
+      </class> <!-- TestNG.DemoTestNG -->
+      <class name="TestNG.Annotation">
+        <test-method status="PASS" signature="Greeting()[pri:0, instance:TestNG.Annotation@491cc5c9]" name="Greeting" is-config="true" duration-ms="9" started-at="2023-06-12T12:10:20 IST" finished-at="2023-06-12T12:10:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Greeting -->
+        <test-method status="PASS" signature="OpenBrouser()[pri:0, instance:TestNG.Annotation@491cc5c9]" name="OpenBrouser" is-config="true" duration-ms="0" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrouser -->
+        <test-method status="PASS" signature="VerifyLogIn()[pri:1, instance:TestNG.Annotation@491cc5c9]" name="VerifyLogIn" duration-ms="5" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogIn -->
+        <test-method status="PASS" signature="CloseBrouser()[pri:0, instance:TestNG.Annotation@491cc5c9]" name="CloseBrouser" is-config="true" duration-ms="1" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrouser -->
+        <test-method status="PASS" signature="OpenBrouser()[pri:0, instance:TestNG.Annotation@491cc5c9]" name="OpenBrouser" is-config="true" duration-ms="1" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrouser -->
+        <test-method status="PASS" signature="CreateTask()[pri:2, instance:TestNG.Annotation@491cc5c9]" name="CreateTask" duration-ms="2" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTask -->
+        <test-method status="PASS" signature="CloseBrouser()[pri:0, instance:TestNG.Annotation@491cc5c9]" name="CloseBrouser" is-config="true" duration-ms="1" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrouser -->
+        <test-method status="PASS" signature="OpenBrouser()[pri:0, instance:TestNG.Annotation@491cc5c9]" name="OpenBrouser" is-config="true" duration-ms="0" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrouser -->
+        <test-method status="PASS" signature="DeleteTask()[pri:3, instance:TestNG.Annotation@491cc5c9]" name="DeleteTask" duration-ms="2" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTask -->
+        <test-method status="PASS" signature="CloseBrouser()[pri:0, instance:TestNG.Annotation@491cc5c9]" name="CloseBrouser" is-config="true" duration-ms="1" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrouser -->
+        <test-method status="PASS" signature="Greeting1()[pri:0, instance:TestNG.Annotation@491cc5c9]" name="Greeting1" is-config="true" duration-ms="0" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Greeting1 -->
+      </class> <!-- TestNG.Annotation -->
+      <class name="TestNG.EnableTrueFalse">
+        <test-method status="PASS" signature="enable1()[pri:0, instance:TestNG.EnableTrueFalse@74ad1f1f]" name="enable1" duration-ms="1" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enable1 -->
+        <test-method status="PASS" signature="enable3()[pri:0, instance:TestNG.EnableTrueFalse@74ad1f1f]" name="enable3" duration-ms="2" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enable3 -->
+      </class> <!-- TestNG.EnableTrueFalse -->
+      <class name="TestNG.DemoTestNG2">
+        <test-method status="FAIL" signature="TestCase2()[pri:0, instance:TestNG.DemoTestNG2@60285225]" name="TestCase2" duration-ms="232" started-at="2023-06-12T12:10:22 IST" finished-at="2023-06-12T12:10:23 IST">
+          <exception class="java.lang.IllegalStateException">
             <message>
-              <![CDATA[.\TestData\Automation.xlsx (The system cannot find the path specified)]]>
+              <![CDATA[The driver executable does not exist: E:\Acceleration\Automation Testing\Workplace 4.9\TestNG\src\Executable\chromedriver.exe]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: .\TestData\Automation.xlsx (The system cannot find the path specified)
-at java.io.FileInputStream.open0(Native Method)
-at java.io.FileInputStream.open(Unknown Source)
-at java.io.FileInputStream.<init>(Unknown Source)
-at java.io.FileInputStream.<init>(Unknown Source)
-at DDT.DataDrivenTest.getSheetCount(DataDrivenTest.java:15)
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: E:\Acceleration\Automation Testing\Workplace 4.9\TestNG\src\Executable\chromedriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at TestNG.DemoTestNG2.TestCase2(DemoTestNG2.java:15)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -49,11 +162,193 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
+          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getSheetCount -->
-      </class> <!-- DDT.DataDrivenTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- TestCase2 -->
+      </class> <!-- TestNG.DemoTestNG2 -->
+      <class name="TestNG.ExceptionHandling">
+        <test-method status="PASS" signature="signIn()[pri:0, instance:TestNG.ExceptionHandling@1b26f7b2]" name="signIn" duration-ms="2" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at TestNG.ExceptionHandling.signIn(ExceptionHandling.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:TestNG.ExceptionHandling@1b26f7b2]" name="logIn" duration-ms="2" started-at="2023-06-12T12:10:23 IST" depends-on-methods="TestNG.ExceptionHandling.signIn" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="checkNotification()[pri:0, instance:TestNG.ExceptionHandling@1b26f7b2]" name="checkNotification" duration-ms="2" started-at="2023-06-12T12:10:23 IST" depends-on-methods="TestNG.ExceptionHandling.logIn" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNotification -->
+      </class> <!-- TestNG.ExceptionHandling -->
+      <class name="TestNG.BeforeMethodandAfterMethod">
+        <test-method status="PASS" signature="OpenBrouser()[pri:0, instance:TestNG.BeforeMethodandAfterMethod@6043cd28]" name="OpenBrouser" is-config="true" duration-ms="1" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrouser -->
+        <test-method status="PASS" signature="VerifyLogIn()[pri:1, instance:TestNG.BeforeMethodandAfterMethod@6043cd28]" name="VerifyLogIn" duration-ms="1" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogIn -->
+        <test-method status="PASS" signature="CloseBrouser()[pri:0, instance:TestNG.BeforeMethodandAfterMethod@6043cd28]" name="CloseBrouser" is-config="true" duration-ms="2" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrouser -->
+        <test-method status="PASS" signature="OpenBrouser()[pri:0, instance:TestNG.BeforeMethodandAfterMethod@6043cd28]" name="OpenBrouser" is-config="true" duration-ms="1" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrouser -->
+        <test-method status="PASS" signature="CreateTask()[pri:2, instance:TestNG.BeforeMethodandAfterMethod@6043cd28]" name="CreateTask" duration-ms="4" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTask -->
+        <test-method status="PASS" signature="CloseBrouser()[pri:0, instance:TestNG.BeforeMethodandAfterMethod@6043cd28]" name="CloseBrouser" is-config="true" duration-ms="1" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrouser -->
+        <test-method status="PASS" signature="OpenBrouser()[pri:0, instance:TestNG.BeforeMethodandAfterMethod@6043cd28]" name="OpenBrouser" is-config="true" duration-ms="1" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrouser -->
+        <test-method status="PASS" signature="DeleteTask()[pri:3, instance:TestNG.BeforeMethodandAfterMethod@6043cd28]" name="DeleteTask" duration-ms="4" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTask -->
+        <test-method status="PASS" signature="CloseBrouser()[pri:0, instance:TestNG.BeforeMethodandAfterMethod@6043cd28]" name="CloseBrouser" is-config="true" duration-ms="2" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrouser -->
+      </class> <!-- TestNG.BeforeMethodandAfterMethod -->
+      <class name="TestNG.BeforeTestAfterTest">
+        <test-method status="PASS" signature="OpenBrouser()[pri:0, instance:TestNG.BeforeTestAfterTest@69b0fd6f]" name="OpenBrouser" is-config="true" duration-ms="1" started-at="2023-06-12T12:10:20 IST" finished-at="2023-06-12T12:10:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrouser -->
+        <test-method status="PASS" signature="VerifyLogIn()[pri:1, instance:TestNG.BeforeTestAfterTest@69b0fd6f]" name="VerifyLogIn" duration-ms="4" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogIn -->
+        <test-method status="PASS" signature="CreateTask()[pri:2, instance:TestNG.BeforeTestAfterTest@69b0fd6f]" name="CreateTask" duration-ms="3" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTask -->
+        <test-method status="PASS" signature="CloseBrouser()[pri:0, instance:TestNG.BeforeTestAfterTest@69b0fd6f]" name="CloseBrouser" is-config="true" duration-ms="0" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrouser -->
+      </class> <!-- TestNG.BeforeTestAfterTest -->
+      <class name="TestNG.TimeOutInTestNG">
+        <test-method status="PASS" signature="signIn()[pri:0, instance:TestNG.TimeOutInTestNG@e874448]" name="signIn" duration-ms="3" started-at="2023-06-12T12:10:20 IST" finished-at="2023-06-12T12:10:20 IST">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at TestNG.TimeOutInTestNG.signIn(TimeOutInTestNG.java:27)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:TestNG.TimeOutInTestNG@e874448]" name="logIn" duration-ms="2" started-at="2023-06-12T12:10:20 IST" depends-on-methods="TestNG.TimeOutInTestNG.signIn" finished-at="2023-06-12T12:10:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="checkNotification()[pri:0, instance:TestNG.TimeOutInTestNG@e874448]" name="checkNotification" duration-ms="509" started-at="2023-06-12T12:10:20 IST" depends-on-methods="TestNG.TimeOutInTestNG.logIn" finished-at="2023-06-12T12:10:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNotification -->
+      </class> <!-- TestNG.TimeOutInTestNG -->
+      <class name="TestNG.GroupExamplle">
+        <test-method status="PASS" signature="testCaseFive()[pri:0, instance:TestNG.GroupExamplle@757942a1]" name="testCaseFive" duration-ms="3" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseFive -->
+        <test-method status="PASS" signature="testCaseFour()[pri:0, instance:TestNG.GroupExamplle@757942a1]" name="testCaseFour" duration-ms="7" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseFour -->
+        <test-method status="PASS" signature="testCaseOne()[pri:0, instance:TestNG.GroupExamplle@757942a1]" name="testCaseOne" duration-ms="4" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseOne -->
+        <test-method status="PASS" signature="testCaseThree()[pri:0, instance:TestNG.GroupExamplle@757942a1]" name="testCaseThree" duration-ms="3" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseThree -->
+        <test-method status="PASS" signature="testCaseTwo()[pri:0, instance:TestNG.GroupExamplle@757942a1]" name="testCaseTwo" duration-ms="4" started-at="2023-06-12T12:10:23 IST" finished-at="2023-06-12T12:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseTwo -->
+      </class> <!-- TestNG.GroupExamplle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

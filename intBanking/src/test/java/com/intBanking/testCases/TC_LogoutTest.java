@@ -1,5 +1,6 @@
 package com.intBanking.testCases;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import java.io.IOException;
@@ -13,6 +14,7 @@ public class TC_LogoutTest extends BaseClass {
 	@Test
 	public void logout() throws InterruptedException, IOException
 	{
+		WebDriver driver=getDriver();
 		LoginPage lp = new LoginPage(driver);
 		lp.setUserName(username);
 		lp.setPassWord(password);
@@ -39,8 +41,9 @@ public class TC_LogoutTest extends BaseClass {
 		
 	}
 
-	private static boolean isAlertPresent()
+	public static boolean isAlertPresent()
 	{
+		WebDriver driver=getDriver();
 		try {
 		      driver.switchTo().alert();
 		      return true;

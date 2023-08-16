@@ -1,6 +1,7 @@
 package com.intBanking.testCases;
 
 import org.testng.annotations.Test;
+import org.openqa.selenium.WebDriver;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -16,6 +17,7 @@ public class TC_EditAccountTest extends BaseClass{
 	@Test
 	public void editAccount() throws InterruptedException, IOException
 	{
+		WebDriver driver=getDriver();
 		LoginPage pl=new LoginPage(driver);
 		pl.setUserName(username);
 		pl.setPassWord(password);

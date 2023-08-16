@@ -1,6 +1,8 @@
 package com.intBanking.testCases;
 
 import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -8,6 +10,7 @@ import com.intBanking.pageObjects.LoginPage;
 import com.intBanking.utilities.XLUtils;
 
 public class TC_LoginTest_002 extends BaseClass {
+	public static WebDriver driver=getDriver();
 	@Test(dataProvider="getData")
 	public void loginDDT(String username,String password)
 	{
@@ -26,6 +29,7 @@ public class TC_LoginTest_002 extends BaseClass {
 	}
 	   public boolean isAlert()
 	   {
+		   
 		  try {
 		        driver.switchTo().alert();
 		         return true;

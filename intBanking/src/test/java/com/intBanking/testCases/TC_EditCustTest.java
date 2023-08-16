@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import java.io.IOException;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -17,6 +18,7 @@ public class TC_EditCustTest extends BaseClass {
 	@Test
 	public void editCustId() throws InterruptedException, IOException
 	{
+		WebDriver driver=getDriver();
 		LoginPage log=new LoginPage(driver);
 		log.setUserName(username);
 		log.setPassWord(password);
