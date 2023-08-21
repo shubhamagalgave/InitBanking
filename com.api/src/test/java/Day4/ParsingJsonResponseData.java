@@ -33,7 +33,7 @@ public class ParsingJsonResponseData{
 			
 	      // accessToken = 44e73f37b5387ac687272215f0077fca4008583fd0356bb1759c7d0a9dd7f7c8
 	   		
-			        // @Test(priority=2)
+			        @Test(priority=2)
 						public void get()
 						{
 				   		  // Response res=
@@ -64,7 +64,7 @@ public class ParsingJsonResponseData{
 						    
 				   		}
 			          
-			          @Test(priority=3)
+			         // @Test(priority=3)
 						public void VerifyMultipleObjrctFromJsonResponse()
 						{
 				   		  Response res= given()

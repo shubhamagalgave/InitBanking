@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="GoogleApi.getGoogle">
+      <class name="Day7.Authentication">
         <methods>
-          <include name="getRequest"/>
+          <include name="Oauth2"/>
         </methods>
-      </class> <!-- GoogleApi.getGoogle -->
+      </class> <!-- Day7.Authentication -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
