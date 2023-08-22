@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
 
-public class FakerDataGeneration1 { 
+public class FakerDataGeneration { 
 	    @Test
 		public void BasicAuthentication() 
 		{
