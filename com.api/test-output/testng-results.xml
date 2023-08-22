@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4005" started-at="2023-08-21T14:50:31 IST" finished-at="2023-08-21T14:50:35 IST">
+  <suite name="Default suite" duration-ms="398" started-at="2023-08-21T19:56:50 IST" finished-at="2023-08-21T19:56:50 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4005" started-at="2023-08-21T14:50:31 IST" finished-at="2023-08-21T14:50:35 IST">
-      <class name="Day7.Authentication">
-        <test-method status="PASS" signature="Oauth2()[pri:0, instance:Day7.Authentication@1877ab81]" name="Oauth2" duration-ms="3942" started-at="2023-08-21T14:50:31 IST" finished-at="2023-08-21T14:50:35 IST">
+    <test name="Default test" duration-ms="398" started-at="2023-08-21T19:56:50 IST" finished-at="2023-08-21T19:56:50 IST">
+      <class name="Day7.FakerDataGeneration">
+        <test-method status="PASS" signature="BasicAuthentication()[pri:0, instance:Day7.FakerDataGeneration@1563da5]" name="BasicAuthentication" duration-ms="366" started-at="2023-08-21T19:56:50 IST" finished-at="2023-08-21T19:56:50 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Oauth2 -->
-      </class> <!-- Day7.Authentication -->
+        </test-method> <!-- BasicAuthentication -->
+      </class> <!-- Day7.FakerDataGeneration -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
