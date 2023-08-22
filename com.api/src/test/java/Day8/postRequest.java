@@ -19,8 +19,7 @@ public class postRequest{
 	
 	
 	   @Test
-		public void postRequest(ITestContext context)
-		{
+		public void postRequest(ITestContext context){
 		   
 			    Faker f=new Faker();
 			    JSONObject jo=new JSONObject();
