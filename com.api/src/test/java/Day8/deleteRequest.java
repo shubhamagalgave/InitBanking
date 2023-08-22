@@ -5,7 +5,7 @@ import static io.restassured.RestAssured.given;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
-public class deleteRequest {
+public class deleteRequest{
 	
 	  @Test
 			public void deleteRequest(ITestContext context)

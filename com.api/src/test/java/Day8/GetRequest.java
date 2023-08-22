@@ -6,7 +6,7 @@ import static org.hamcrest.Matchers.*;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
-public class GetRequest {
+public class GetRequest{
 	
 
 	   @Test
