@@ -27,7 +27,6 @@ public class FakerDataGeneration1 {
 			System.out.println("password"+password);
 			System.out.println("phoneNumber"+phoneNumber);
 			System.out.println("email"+email);
-			
 		}
 		
 
