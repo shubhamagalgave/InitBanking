@@ -78,6 +78,24 @@ public class Authentication {
 		.statusCode(200)
 		.log().body();
 	}
+	
+	
+	
+	    @Test
+		public void BariarTokenAuth() //data not available
+		{
+	    	String gorestToken="9b23d4e6cbcad70a7a8ef269b63944c1a4e9d6aaf5898d139111ce08756c4e13";
+			
+			given()
+			.when()
+			.headers("Authentication","Bearer 9b23d4e6cbcad70a7a8ef269b63944c1a4e9d6aaf5898d139111ce08756c4e13")
+			.get("https://gorest.co.in/public/v2/users/2727")
+			.then()
+			.statusCode(200)
+			.log().body();
+		}
+	
+	
 	//@Test
 	void auth2()
 	{
@@ -86,11 +104,11 @@ public class Authentication {
 		given().auth().oauth2(Token).when().then();
 	}
 	
-	@Test
+	//@Test
 	void Oauth2()
 	{
 		//Website link="https://docs.github.com/en/free-pro-team@latest/rest/repos/repos?apiVersion=2022-11-28#list-repositories-for-the-authenticated-user"
-		String token = "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";
+		String token = "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";
 		//Response res=
 				given()
 		.auth().oauth2(token)
@@ -103,6 +121,19 @@ public class Authentication {
 		//Assert.assertEquals(res.getStatusCode(), 200);
 	}
 	
+	
+	//@Test
+	void APIKeyAuth()
+	{
+		given()
+		.queryParam("apiKey", "value")
+		.when()
+		.get("url")
+		.then()
+		.statusCode(200)
+		.log().body();
+	}
+
 	
 	
 
