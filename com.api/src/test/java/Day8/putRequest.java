@@ -19,7 +19,6 @@ public class putRequest{
 	          .put("https://gorest.co.in/public/v2/users/"+id)
 	          .then().statusCode(200)
 	          .log().all();
-	  
 			}
 
 
