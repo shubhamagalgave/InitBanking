@@ -8,5 +8,5 @@
       <class name="Day8.putRequest"/>
       <class name="Day8.deleteRequest"/>
     </classes>
-  </test> <!-- Test -->
+  </test>
 </suite> <!-- Suite -->
